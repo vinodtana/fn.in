@@ -1,0 +1,61 @@
+.repair-header-top {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.fn-container {
+  width: 1370px;
+}
+.map-counter-sec {
+  margin: auto;
+  /* margin-top: 20px; */
+  width: 1080px;
+}
+.repair-logo img {
+  height: 70px;
+  width: 196px;
+  object-fit: contain;
+}
+.navbar.navbar-default .fn-navbar-collapse {
+  display: flex !important;
+  justify-content: center;
+}
+.footer-log-img {
+  border-radius: 10px;
+}
+#slider_1 .slider-content h2 {
+  font-size: 60px;
+  line-height: 65px;
+}
+.services-row-data-all {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.services-row-data-row .highlight-block {
+  padding: 32px 24px;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+}
+.services-row-data-row .highlight-block .highlight-block-inner {
+  text-align: center;
+}
+.services-row-data-row .highlight-block .highlight-block-inner > i {
+  color: #f69323;
+}
+.repair-header-top .repair-icon-box {
+  margin-top: 15px;
+}
+.repair-header-top .repair-col-logo .repair-logo {
+  line-height: 70px;
+}
+.repair-header-top .btn-quote {
+  margin-top: 15px;
+}
+.repair-header-top .btn-quote .btn-request_quote {
+  font-size: 20px;
+  padding: 7px 14px;
+}
+.bold-font {
+  font-weight: bold;
+}
