@@ -4,6 +4,7 @@
 }
 .fn-container {
   width: 1370px;
+  max-width: none;
 }
 .map-counter-sec {
   margin: auto;
@@ -58,4 +59,94 @@
 }
 .bold-font {
   font-weight: bold;
+}
+.book-2-repair-desktop {
+  display: block;
+}
+.book-2-repair-mobile {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .fn-container {
+    width: 100%;
+    max-width: none;
+  }
+  .repair-header-top .container .row {
+    /* display: flex; */
+  }
+  .repair-header-top .container .hidden-sm {
+    display: block !important;
+  }
+  .repair-logo img {
+    width: 120px;
+    /* max-width: 160px; */
+  }
+  .repair-header-top .book-2-repair-desktop {
+    display: none !important;
+  }
+  .book-2-repair-mobile {
+    display: block !important;
+  }
+  .repair-col-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .repair-header-top .container .col-md-7 .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-top: -15px;
+  }
+  .navbar.navbar-default .nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar.navbar-default .nav.navbar-nav a {
+    padding: 5px 10px !important;
+  }
+  #slider_1 .slider-content h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .services-row-data-all {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .services-row-data-row .highlight-block {
+    padding: 5px;
+  }
+  .Our-tatistics-sec-con * {
+    text-align: center;
+  }
+  .section-client-testimonial .testimony-layout-1 p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .testimonial-image {
+    text-align: center;
+  }
+  .testimonial-image img {
+    max-height: 200px;
+  }
+  .fn-middle-text-box * {
+    font-size: 14px;
+  }
+  .fn-middle-text-box .col-md-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .fn-middle-text-box .icon-container {
+    display: none;
+  }
+  .repair-header-top .repair-icon-box {
+    padding-left: 0px;
+  }
+  .repair-col-logo > div {
+    /* width: 40%; */
+  }
+  #slider_1 .slider-content a.btn-slider {
+    display: block !important;
+    width: 250px;
+    margin: auto;
+  }
 }
