@@ -1,3 +1,3 @@
 function gotoNewPage() {
-  window.location.href = "https://focusnext.rasko.in/createBookingService";
+  window.location.href = "https://www.rasko.in/s/focusnext/bookings";
 }
